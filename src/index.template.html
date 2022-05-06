@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" class="loading no-js">
+<head>
+  <meta charset="UTF-8">
+  <title>Access2Opportunity</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'><link rel='stylesheet' href='https://cdn.unfolded.ai/statics/fonts/unfolded-fonts.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="overlay-container">
+  <img src="logo_cropped.png" alt="Access2Opportunities">
+  <h4>30-Minute Travelsheds</h4>
+  <div id="loader"></div>
+  <div id="button-container">
+    <button class="btn btn-primary btn-lg btn-square" id="move_button_dt">
+      ACCESS TO JOBS
+    </button>
+    <button class="btn btn-primary btn-lg btn-square" id="move_button_nc">
+      ACCESS TO PLACES
+    </button>
+    <button class="btn btn-primary btn-lg btn-square" id="move_button_cv">
+      SCENARIOS
+    </button>
+    <button class="btn btn-primary btn-lg btn-square" id="get-layers">
+      SELECT MODES
+    </button>
+    <div id="sdk-layers">
+      <label class="toggle-label">Toggle Layers</label>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://unpkg.com/@unfolded/map-sdk@0.2.0/dist/unfolded-sdk.min.js'></script><script  src="./script.js"></script>
+  <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+  integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+  crossorigin=""></script>
+</body>
+</html>
